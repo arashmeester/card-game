@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SSR-safe styles */
+@layer base {
+  body {
+    /* @apply bg-primary; */
+  }
+}
+
+/* @layer utilities {
+  .bg-primary {
+    background-color: #FDE68A;
+  }
+} */
